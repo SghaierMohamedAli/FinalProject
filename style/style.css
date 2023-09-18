@@ -1,0 +1,209 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.navbar img{
+
+    width: 50px;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+}
+
+.navbar li{
+    display: inline;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+  background-color: rgb(220, 218, 218);
+}
+
+.slideshow{
+    width: 100%;
+
+}
+
+.products-section{
+    margin-top: 100px;
+    width: 75%;
+    margin: auto;
+}
+
+.products-section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.products-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product{
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid rgb(113, 0, 0);
+    border-radius: 15px;
+}
+.product img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.logos img{
+
+    width: 160px;
+    margin-left: 80px;
+}
+.product h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+.panier h3{
+
+    display: inline;
+}
+
+.cartproduct{
+
+    
+    display: grid;
+    grid-template-columns: 0.8fr 1.3fr 1fr 0.1fr 0fr 0.4fr 1fr;
+    align-items: center;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+.cartproduct img{
+
+    width: 30px;
+    height: 30px;
+}
+
+.quantitycontrol{
+
+    width: 20px;
+    border-radius: 40%;
+}
+
+.cart{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    
+}
+
+.cart h4{
+
+    position: absolute;
+    right: 0px;
+    color: Red;
+    text-decoration: underline;
+}
+
+.icon{
+
+    margin-left: 10px;
+}
+.plus{
+
+    margin-left: 4px;
+    
+}
+.plus,.minus{
+    background-color:rgb(110, 94, 94);
+    color: white;
+    font-size: 0.8em;
+}
+
+.removebutton{
+
+
+    border-radius: 5%;
+    background-color: grey;
+    color: white;
+}
+.total-purchase{
+  
+    position: relative;
+}
+
+.total-purchase button{
+
+    position: absolute;
+    right:10px;
+    top: 15px;
+    width: 10em;
+    height: 2em;
+}
+
+.cartcontrol{
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.ending
+{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+footer
+{
+    background-color: rgb(116, 4, 4);
+    margin-top: 30px;
+}
+.ending h1{
+
+    margin-top: 20px;
+    color: white;
+}
+.ending h3{
+
+    margin-bottom: 50px;
+    margin-top: 10px;
+    color: white;
+}
+.ending i{
+
+    margin-left: 30px;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+footer h2{
+    color: white;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
